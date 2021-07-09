@@ -40,7 +40,7 @@ namespace Sneak_Ladder_Game
         {
             Console.WriteLine("Welcome to the sneak ladder Game");
             int Player_1 = 0;
-
+            int count = 0;
             while (Player_1 < 100)
             {
                 Console.WriteLine("---------------------------------------------------------------------------");
@@ -56,6 +56,7 @@ namespace Sneak_Ladder_Game
                 }
                 Console.WriteLine("Player_1 Position is : " + Player_1);
             }
+            Console.WriteLine("No of times dice roll : " + count);
         }
     }
 }
